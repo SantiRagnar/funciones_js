@@ -28,7 +28,14 @@ para que luego el sistema use esa variable "invidatos" para imprimir
 en consola la lista
 
 */
+function generarInvitados(){
+    let nom1 = prompt('Ingrese el primer nombre');
+    let nom2 = prompt('Ingrese el segundo nombre');
+    let nom3 = prompt('Ingrese el tercer nombre');
+
+    return nom1 + nom2 + nom3;
+}
 
 // Definir y crear la función antes de esta llamada
-invitados = generarInvitados();
+let invitados = generarInvitados();
 console.log(`Mis invitados: ${invitados}`)

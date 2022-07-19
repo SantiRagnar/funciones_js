@@ -13,3 +13,16 @@
  *    Según la cantidad especificada utilice condicionales para solicitar la cantidad de nombres
  *    correctos.
 */
+let cantinv = 0;
+function generarInvitados(){
+    if(cantinv == 3){
+        let nom1 = prompt('ingrese el nombre del invitado');
+        let nom2 = prompt('ingrese el nombre del invitado');
+        let nom3 = prompt('ingrese el nombre del invitado');
+    }else if(cantinv == 2){
+        let nom1 = prompt('ingrese el nombre del invitado');
+        let nom2 = prompt('ingrese el nombre del invitado');
+    }else{
+        let nom1 = prompt('ingrese el nombre del invitado');
+    }
+}

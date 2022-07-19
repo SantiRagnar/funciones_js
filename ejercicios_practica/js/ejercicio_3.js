@@ -21,6 +21,14 @@ que se solicite ingresar
 
 Los tres nombres ingresados se deberán imprimir en consola
 */
+function generarInvitados(){
+    let nom1 = prompt('Ingrese el primer nombre');
+    let nom2 = prompt('Ingrese el segundo nombre');
+    let nom3 = prompt('Ingrese el tercer nombre');
 
+    console.log(nom1);
+    console.log(nom2);
+    console.log(nom3);
+}
 // Definir y crear la función antes de esta llamada
 generarInvitados();

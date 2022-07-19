@@ -12,3 +12,9 @@
  *    Debe recibir 5 números como argumento y calcular el promedio.  Debe reportar por
  *    medio de alert(); y console.log(); el detalle de los datos recibidos.
 */
+
+function promedio(num1,num2,num3,num4,num5){
+    let prom = (num1+num2+num3+num4+num5)/5;
+    alert('prom: '+prom);
+    console.log(prom)
+}
